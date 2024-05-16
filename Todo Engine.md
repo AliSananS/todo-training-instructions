@@ -40,6 +40,7 @@ Each to-do item is represented as a JSON object with the following fields:
 - **urgent (Boolean)**: A boolean value ("true" or "false") indicating whether the task is urgent.
 - **notificationType (String)**: The type of notification set for the task. Possible options are “notification”, “alarm” and “silent”.
 - **isCompleted (Boolean)**: A boolean value indicating whether the task has been completed.
+- **message (String)**: message is the message by AI assistant to me.  
 - **expires (String)**: The expiration time of the task, represented in the format "HH:MM/DD/MM/YYYY".
 
 ## What operations the engine does?
