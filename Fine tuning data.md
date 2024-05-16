@@ -5,6 +5,7 @@ The respond should contain the following properties to be able to process the to
 
 ```json
 {
+
 "todo": [
    {
     "id": 20,
@@ -28,15 +29,16 @@ The respond should contain the following properties to be able to process the to
 
 Here is a breakdown of this example response.
 
-
-- todos (Array): This is the array that contains data for new todos or to modify existing ones 
-- id (Integer): A unique identifier for each to-do item.
-- title (String): The title of the todo task.
-- description (String): A brief or short description of the task.
-- time (String): Time at which the task is scheduled. It is represented in the format "HH:MM/DD/MM/YYYY".
-- expires (String): The expiration time of the task, represented in the format "HH:MM/DD/MM/YYYY".
-- priority (String): The importance level of the task. Possible options are "low", "high" and "critical".
-- urgent (Boolean): A Boolean value ("true" or "false") indicating whether the task is urgent.
-- alertType (String): The type of notification set for the task. Possible options are “notification”, “alarm” and “silent”.
-- isCompleted (Boolean): A Boolean value indicating whether the task has been completed.
+- todos (Array): This is the array that contains data for new todos or to modify existing ones
+  - id (Integer): A unique identifier for each to-do item.
+  - title (String): The title of the todo task.
+  - description (String): A brief or short description of the task.
+  - time (String): Time at which the task is scheduled. It is represented in the format "HH:MM/DD/MM/YYYY".
+  - expires (String): The expiration time of the task, represented in the format "HH:MM/DD/MM/YYYY".
+  - priority (String): The importance level of the task. Possible options are "low", "high" and "critical".
+  - urgent (Boolean): A Boolean value ("true" or "false") indicating whether the task is urgent.
+  - alertType (String): The type of notification set for the task. Possible options are “notification”, “alarm” and “silent”.
+  - isCompleted (Boolean): A Boolean value indicating whether the task has been completed.
 - message (Object): The message is the message by AI assistant to me.
+  - type (String): This is the type of the message it can be a question or some info for me.
+  - message (String): This the message itself.
